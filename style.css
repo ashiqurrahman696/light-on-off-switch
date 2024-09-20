@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+}
+img.light{
+    height: 400px;
+}
+button.switch{
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
